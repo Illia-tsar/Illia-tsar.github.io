@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1600px;
+    margin: 0px auto;
+}
+footer, header{
+    display: block;
+}
+/* Header */
+.slider{
+    position: relative;
+}
+    /*Top Menu IN Header */
+.top-menu{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.slider-item.ac{
+    position: relative;
+}
+    /* Text IN Slider */
+.bottom-left{
+    position: absolute;
+    left: 65px;
+    bottom: 85px;
+}
+
+    /* Navigation IN Header */
+nav{
+    margin-top: -17px;
+    display: flex;
+}
+.status-bar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+}
+.nav-button{
+    width: 20%;
+    text-align: center;
+}
+/* Main */
+.tasks-and-filters{
+    display: flex;
+}
+.col1-2, .col3-8{
+    padding: 0px 10px;
+}
+.col1-2{
+    width: 25%;
+}
+.col3-8{
+    width: 75%;
+}
+.filters-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.search, .filters{
+    padding: 9px 0px;
+}
+.search{
+    margin-top: 7px;
+}
+.pop-items-body{
+    display: flex;
+    justify-content: center;
+}
+.pop-items-list{
+    display: flex;
+    justify-content: center;
+}
+.pop-items-title{
+    text-align: center;
+}
+/* Footer */
+.col12, .col34, .col56, .col78{
+    width: 25%;
+}
+.top{
+    display: flex;
+}
+.bottom{
+    text-align: center;
+}

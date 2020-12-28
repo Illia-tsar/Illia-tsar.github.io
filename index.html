@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RocketCourses</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="side-menu">
+                <span class="trigram">&#9776;</span>
+                <section class="slider-nav-wrapper">
+                    <div class="slider">
+                        <div class="top-menu">
+                            <a class="top-menu-button" href="#">Help</a>
+                            <a class="top-menu-button" href="#">About</a>
+                            <button type="button" class="top-menu-button">Log out</button>
+                        </div>
+                        <div class="slider-list">
+                            <div class="slider-item">
+                                <img src="#" alt="img1">
+                                <div class="bottom-right">
+                                    <p>Text1</p>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <img src="#" alt="img2">
+                                <div class="bottom-left">
+                                    <p>Text2</p>
+                                </div>
+                            </div>
+                            <div class="slider-item ac">
+                                <img src="images/artificial-intelligence_new1.png" alt="img3">
+                                <div class="bottom-left">
+                                    <p>Ray Davidson, founder of Rocket Enterprise</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-nav">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot ac"></span>
+                        </div>
+                    </div>
+                </section>
+                <nav>
+                    <a class="nav-button one" href="#">My profile</a>
+                    <a class="nav-button two" href="#">Account Settings</a>
+                    <div class="status-bar">
+                        <label for="status-bar-val">Success Rate</label>
+                        <progress id="status-bar-val" min="0" max="100" value="47"></progress>
+                    </div>
+                    <a class="nav-button three" href="#">Promotion Queue</a>
+                    <a class="nav-button four ac" href="#">Tasks</a>
+                </nav>
+            </div>
+        </header>
+        <main>  
+            <div class="tasks-and-filters">
+                <aside class="col1-2"> 
+                    <div class="search">
+                        <form action="#" method="get">
+                            <input type="text" name="search-tasks" class="search-tasks-round" placeholder="Search" value="">
+                        </form>
+                    </div>
+                    <div class="filters">
+                        <div class="filters-title">
+                            <p>Filters</p>
+                        </div>
+                        <div class="filters-container">
+                            <button type="button" class="filter-option ac">No filters</button>
+                            <button type="button" class="filter-option">Done Exercises</button>
+                            <button type="button" class="filter-option">Undone Exercises</button>
+                            <button type="button" class="filter-option">Courses</button>
+                            <button type="button"class="filter-option">Theory</button>
+                        </div>
+                    </div>
+                </aside>
+                <div class="col3-8">
+                    <div class="acc-list">
+                        <div class="acc-item ac">
+                            <div class="acc-header">
+                                <div class="acc-title">
+                                    <p>Finish Coursera Regression Course</p>
+                                </div>
+                                <div class="acc-status ac">
+                                    <p id="num-status-bar">0/1</p>
+                                </div>
+                            </div>
+                            <div class="acc-body">
+                                <div class="video">
+                                    <iframe class="embedded-video" width="920" height="500" src="https://youtu.be/YcWkLGoiPEo"></iframe>
+                                </div>
+                                <form action="#" method="post">
+                                    <div class="answer-field">
+                                        <input type="text" name="answer-field-input" class="answer-field-input" maxlength="255" placeholder="Write your answer here">
+                                    </div>
+                                    <div class="submission-section">
+                                        <div class="check-box">
+                                            <input type="checkbox" id="subm-check" name="subm-checkbox">
+                                            <label for="subm-check">I promise to submit my own answers</label>
+                                        </div>
+                                        <input type="submit" value="Submit">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="acc-item done">
+                            <div class="acc-header">
+                                <div class="acc-title done">
+                                    <p>Use gradient descent for multivariable problems 10 times</p>
+                                </div>
+                                <div class="acc-status done">
+                                    <p id="num-status-bar1">10/10</p>
+                                </div>
+                            </div>
+                            <div class="acc-body"></div>
+                        </div>
+                        <div class="acc-item done">
+                            <div class="acc-header">
+                                <div class="acc-title done">
+                                    <p>Presentation:Linear Regression with one variable</p>
+                                </div>
+                                <div class="acc-status done">
+                                    <p id="num-status-bar2">1/1</p>
+                                </div>
+                            </div>
+                            <div class="acc-body"></div>
+                        </div>
+                    </div>
+                    <a href="#" class="view-more-acc">VIEW MORE&#10095;</a>
+                </div>
+            </div>
+            <div class="popular-items">
+                <div class="pop-items-title">
+                    <p><u>Popular</u></p>
+                </div>
+                <div class="pop-items-body">
+                    <div class="pop-items-nav">
+                        <a class="prev" href="#">&#10094;&#10094;</a>
+                        <a class="next" href="#">&#10095;&#10095;</a>
+                    </div>
+                    <div class="pop-items-list">
+                        <div class="pop-item1">
+                            <img src="images/Classification1.png" alt="Classification">
+                            <div class="textWrapper">
+                                <h3><u>Classification</u></h3>
+                                <p>Pick one of N labels</p>
+                            </div>
+                        </div>
+                        <div class="pop-item2">
+                            <img src="images/2475101-200.png" alt="Regression">
+                            <div class="textWrapper">
+                                <h3><u>Regression</u></h3>
+                                <p>Predict numerical values</p>
+                            </div>
+                        </div>
+                        <div class="pop-item3">
+                            <img src="images/2424487-200.png" alt="Clustering">
+                            <div class="textWrapper">
+                                <h3><u>Clustering</u></h3>
+                                <p>Group similar examples</p>
+                            </div>
+                        </div>
+                        <div class="pop-item4">
+                            <img src="images/239-512.png" alt="Ranking">
+                            <div class="textWrapper">
+                                <h3><u>Ranking</u></h3>
+                                <p>Identify position on scale or status</p>
+                            </div>
+                        </div>
+                        <a class="view-more" href="#">VIEW MORE&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="top">
+                <div class="col12">
+                    <img src="images/Speedmatters.png" alt="logo" class="image-logo">
+                </div>
+                <div class="col34">
+                    <div class="list-title">
+                        <img src="images/About Rocket Enterpise.png" alt="About Rocket Enterprise">
+                    </div>
+                    <div class="options-list">
+                        <ul class="options1">
+                            <li><a href="#">Affiliates</a></li>
+                            <li><a href="#">Awards</a></li>
+                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col56">
+                    <div class="list-title">
+                        <img src="images/Help _ FAQs.png" alt="Help & FAQs">
+                    </div>
+                    <div class="options-list">
+                        <ul class="options2">
+                            <li><a href="#">For employees</a></li>
+                            <li><a href="#">For applicants</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col78">
+                    <div class="list-title">
+                        <img src="images/Follow us.png" alt="Follow us">
+                    </div>
+                    <div class="options-list">
+                        <ul class="options3">
+                            <li><a href="#"><img src="images/twitter.png" alt="twitter-logo"></a></li>
+                            <li><a href="#"><img src="images/facebook.png" alt="facebook-logo"></a></li>
+                            <li><a href="#"><img src="images/linkedin-154-459182.png" alt="linkedin-logo"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p class="topic-centered">Machine Learning</p>
+                <p class="copyright-centered">&#169; ROCKET ENTERPRISE</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
